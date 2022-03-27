@@ -7,7 +7,8 @@
 }
 .sideBarWrapper{
     color:#555;
-    padding:20px;
+    padding-top:10px;
+    padding-left: 20px;
 
 }
 .sideBarMenu{
@@ -27,8 +28,9 @@
     align-items: center;
     border-radius: 10px;
 }
+.sideBarListItem.active,
 .sideBarListItem:hover{
-    background-color:rgb(233, 26, 140) ;
+    background-color:#b9e2e0;
 }
 .sideBarIcon{
     margin-right:7px;

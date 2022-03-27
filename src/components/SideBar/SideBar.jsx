@@ -27,7 +27,7 @@ function SideBar() {
           <div className="sideBarMenu">
              <h2 className="sideBarTitle">Quick Menu</h2>
                  <ul className="sideBarList">
-                     <li className="sideBarListItem active">
+                     <li className="sideBarListItem">
                     <LineStyle className='sideBarIcon'/>
                     Home
                      </li>
@@ -45,7 +45,7 @@ function SideBar() {
           <div className="sideBarMenu">
              <h2 className="sideBarTitle">Notifications</h2>
                  <ul className="sideBarList">
-                     <li className="sideBarListItem active">
+                     <li className="sideBarListItem">
                     <LineStyle className='sideBarIcon'/>
                     Home
                      </li>
@@ -63,7 +63,7 @@ function SideBar() {
           <div className="sideBarMenu">
              <h2 className="sideBarTitle">Notifications</h2>
                  <ul className="sideBarList">
-                     <li className="sideBarListItem active">
+                     <li className="sideBarListItem">
                     <LineStyle className='sideBarIcon'/>
                     Home
                      </li>

@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import TopBar from './components/TopBar/TopBar';
 import SideBar from './components/SideBar/SideBar';
+import Home from './pages/Home/Home';
 import './App.css'
 
 
@@ -12,9 +13,7 @@ function App() {
 
         <div className="container">
               <SideBar></SideBar>
-              <div className="others">
-                 <h2>Other pages</h2>
-              </div>
+              <Home></Home>
             
         </div>
       
