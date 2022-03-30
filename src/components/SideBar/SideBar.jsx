@@ -1,6 +1,7 @@
 import React from 'react';
 import './SideBar.css';
 import {LineStyle,Timeline,TrendingUp} from '@material-ui/icons';
+import { Link } from 'react-router-dom';
 
 function SideBar() {
   return (
@@ -27,14 +28,20 @@ function SideBar() {
           <div className="sideBarMenu">
              <h2 className="sideBarTitle">Quick Menu</h2>
                  <ul className="sideBarList">
+                  <Link to="/users" className='link'>
                      <li className="sideBarListItem">
                     <LineStyle className='sideBarIcon'/>
-                    Home
+                    Users
                      </li>
+                     </Link>
+
+                     <Link to="/" className='link'>
                      <li className="sideBarListItem">
                     <Timeline className='sideBarIcon'/>
                    Analytics
                      </li>
+                     </Link>
+                     
                      <li className="sideBarListItem">
                     <TrendingUp className='sideBarIcon'/>
                     Sales
