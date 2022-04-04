@@ -14,73 +14,74 @@ function SideBar() {
                     <LineStyle className='sideBarIcon'/>
                     Home
                      </li>
+                     <Link to="/users" className='link'>
                      <li className="sideBarListItem">
                     <Timeline className='sideBarIcon'/>
-                   Analytics
+                  Token
                      </li>
+                     </Link>
                      <li className="sideBarListItem">
                     <TrendingUp className='sideBarIcon'/>
-                    Sales
+                   Tray
                      </li>
                  </ul>
           </div>
 
           <div className="sideBarMenu">
-             <h2 className="sideBarTitle">Quick Menu</h2>
+             <h2 className="sideBarTitle">User Account</h2>
                  <ul className="sideBarList">
                   <Link to="/users" className='link'>
                      <li className="sideBarListItem">
                     <LineStyle className='sideBarIcon'/>
-                    Users
+                    Personal
                      </li>
                      </Link>
 
-                     <Link to="/" className='link'>
+                   
                      <li className="sideBarListItem">
                     <Timeline className='sideBarIcon'/>
-                   Analytics
+                   company
                      </li>
-                     </Link>
                      
                      <li className="sideBarListItem">
                     <TrendingUp className='sideBarIcon'/>
-                    Sales
+                    Penalty
                      </li>
                  </ul>
           </div>
 
           <div className="sideBarMenu">
-             <h2 className="sideBarTitle">Notifications</h2>
+             <h2 className="sideBarTitle">Contract Data</h2>
                  <ul className="sideBarList">
                      <li className="sideBarListItem">
                     <LineStyle className='sideBarIcon'/>
-                    Home
+                    File
                      </li>
                      <li className="sideBarListItem">
                     <Timeline className='sideBarIcon'/>
-                   Analytics
+                   Contract Status
                      </li>
                      <li className="sideBarListItem">
                     <TrendingUp className='sideBarIcon'/>
-                    Sales
+                   Payment
                      </li>
                  </ul>
           </div>
 
           <div className="sideBarMenu">
-             <h2 className="sideBarTitle">Notifications</h2>
+             <h2 className="sideBarTitle">Communication</h2>
                  <ul className="sideBarList">
                      <li className="sideBarListItem">
                     <LineStyle className='sideBarIcon'/>
-                    Home
+                    Information
                      </li>
                      <li className="sideBarListItem">
                     <Timeline className='sideBarIcon'/>
-                   Analytics
+                   Review
                      </li>
                      <li className="sideBarListItem">
                     <TrendingUp className='sideBarIcon'/>
-                    Sales
+                    AI Chat Bot
                      </li>
                  </ul>
           </div>

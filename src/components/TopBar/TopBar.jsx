@@ -6,7 +6,7 @@ function TopBar() {
   return (
     <div className='topBar'>
        <div className="topBarWrapper">
-           <div className="topLeft"><span className='logo'>React Admin</span></div>
+           <div className="topLeft"><span className='logo'>J-STO ADMIN</span></div>
              <div className="topRight">
                <div className="topBarIconContainer">
                     <NotificationsNone />

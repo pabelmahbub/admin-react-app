@@ -7,32 +7,25 @@ function FeaturedInfo() {
     <div className='featured'>
 
       <div className="featuredItem">
-        <span className="featuredTitle">Revenue</span>
-         <div className="featuredMoneyContainer">
-          <span className="featuredMoney">$5666</span>
-          <span className="featuredMoneyRate">-12.78<ArrowDownward className='featuredIcon negative'/></span>
-        </div>
-        <span className="featuredSub"> Compared to last month</span>
+         <span className="featuredTitle">39366</span>
+          <span className="featuredMoneyRate">Token Management</span>
       </div>
 
       <div className="featuredItem">
-        <span className="featuredTitle">Sales</span>
-         <div className="featuredMoneyContainer">
-          <span className="featuredMoney">$6555666</span>
-          <span className="featuredMoneyRate">52.78<ArrowUpward className='featuredIcon'/></span>
-        </div>
-        <span className="featuredSub"> Compared to last month</span>
+        <span className="featuredTitle">55,329</span>
+          <span className="featuredMoneyRate">User Account</span>
       </div>
 
 
       <div className="featuredItem">
-        <span className="featuredTitle">Cost</span>
-         <div className="featuredMoneyContainer">
-          <span className="featuredMoney">$767666</span>
-          <span className="featuredMoneyRate">62.78<ArrowUpward className='featuredIcon'/></span>
-        </div>
-        <span className="featuredSub"> Compared to last month</span>
+        <span className="featuredTitle">¥778,223,010</span>
+          <span className="featuredMoneyRate">Transaction Selection</span>
       </div>
+      <div className="featuredItem">
+        <span className="featuredTitle">¥393,167,000</span>
+          <span className="featuredMoneyRate">Amount of Time</span>
+      </div>
+
 
 
     </div>

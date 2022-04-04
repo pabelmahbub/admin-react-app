@@ -6,6 +6,7 @@
 }
 .featuredItem{
     flex:1;
+    flex-direction: column;
     margin:0px 22px;
     padding:27px;
     border-radius:5px;
@@ -15,6 +16,7 @@
 }
 .featuredTitle{
     font-size: 18px;
+   
 }
 .featuredMoneyContainer{
     margin:10px 0px;
